@@ -2,3 +2,4 @@
 node_modules/*
 dist/*
 gulp/config/ftp.js
+gulp/version.json
