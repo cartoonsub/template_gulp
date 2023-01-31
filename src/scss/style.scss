@@ -1,0 +1,31 @@
+@import "fonts";
+
+body {
+    background-color: rgb(28, 219, 155);
+    background: url("@img/cover.jpg") no-repeat center center fixed, rgb(28, 219, 155);
+
+    span {
+        font-size: 32px;
+    }
+}
+
+img {
+    max-width: 320px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    span {
+        font-size: 16px;
+    }
+}

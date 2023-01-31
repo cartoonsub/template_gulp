@@ -1,0 +1,315 @@
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BlackWide.woff2") format("woff2"), url("../fonts/Mona-Sans-BlackWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-Bold.woff2") format("woff2"), url("../fonts/Mona-Sans-Bold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BlackWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-BlackWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BoldNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-BoldNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BoldNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-BoldNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BoldWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-BoldWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BoldWide.woff2") format("woff2"), url("../fonts/Mona-Sans-BoldWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-BoldItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-BoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-ExtraBoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-ExtraBoldNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-ExtraBoldNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-ExtraBoldNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-ExtraBoldNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-ExtraBoldWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-ExtraBoldWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-ExtraBold.woff2") format("woff2"), url("../fonts/Mona-Sans-ExtraBold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-ExtraBoldWide.woff2") format("woff2"), url("../fonts/Mona-Sans-ExtraBoldWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-Light.woff2") format("woff2"), url("../fonts/Mona-Sans-Light.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-LightItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-LightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-LightNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-LightNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-LightWide.woff2") format("woff2"), url("../fonts/Mona-Sans-LightWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-LightWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-LightWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-MediumItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-MediumItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-LightNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-LightNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-MediumNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-MediumNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-MediumNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-MediumNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-MediumWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-MediumWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-MediumWide.woff2") format("woff2"), url("../fonts/Mona-Sans-MediumWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-Medium.woff2") format("woff2"), url("../fonts/Mona-Sans-Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-Regular.woff2") format("woff2"), url("../fonts/Mona-Sans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-RegularItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-RegularItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-RegularWide.woff2") format("woff2"), url("../fonts/Mona-Sans-RegularWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-RegularNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-RegularNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-SemiBold.woff2") format("woff2"), url("../fonts/Mona-Sans-SemiBold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-RegularNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-RegularNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-SemiBoldNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-SemiBoldNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-RegularWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-RegularWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-SemiBoldNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-SemiBoldNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-SemiBoldWide.woff2") format("woff2"), url("../fonts/Mona-Sans-SemiBoldWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-SemiBoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-UltraLightNarrow.woff2") format("woff2"), url("../fonts/Mona-Sans-UltraLightNarrow.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-SemiBoldWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-SemiBoldWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-UltraLight.woff2") format("woff2"), url("../fonts/Mona-Sans-UltraLight.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-UltraLightItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-UltraLightItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-UltraLightWideItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-UltraLightWideItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-UltraLightNarrowItalic.woff2") format("woff2"), url("../fonts/Mona-Sans-UltraLightNarrowItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans-UltraLightWide.woff2") format("woff2"), url("../fonts/Mona-Sans-UltraLightWide.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Mona;
+	font-display: swap;
+	src: url("../fonts/Mona-Sans.woff2") format("woff2"), url("../fonts/Mona-Sans.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}

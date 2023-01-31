@@ -1,0 +1,5 @@
+
+node_modules/*
+dist/*
+gulp/tasks/ftp.js
+gulp/config/ftp.js
