@@ -12,5 +12,6 @@ export const ftp = () => {
             message: 'Error: <%= error.message %>'
         }))
     )
-    .pipe(ftpConnect.dest(`/${app.path.ftp}/${app.path.rootFolder}`));
+    // .pipe(ftpConnect.dest(`/${app.path.ftp}/${app.path.rootFolder}`))
+    .pipe(ftpConnect.dest(`/${app.path.ftp}`));
 }

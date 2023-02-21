@@ -8,6 +8,7 @@ export const path = {
     build: {
         js: `${buildFolder}/js/`,
         css: `${buildFolder}/css/`,
+        cssFix: `${buildFolder}/css/*.css`,
         images: `${buildFolder}/img/`,
         html: `${buildFolder}/`,
         files: `${buildFolder}/files/`,
@@ -33,5 +34,5 @@ export const path = {
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     rootFolder: rootFolder,
-    ftp: 'test'
+    ftp: 'public_html'
 }

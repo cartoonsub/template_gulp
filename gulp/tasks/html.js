@@ -15,24 +15,21 @@ export const html = () => {
         .pipe(
             app.plugins.if(
                 app.isBuild,
-                webHtmlNoSvg()
+                webHtmlNoSvg(),
             )
         )
         .pipe(
-            app.plugins.if(
-                app.isBuild,
-                versionNumber({
-                    'value': '%DT%',
-                    'append': {
-                        'key': 'v',
-                        'cover': 0,
-                        'to': ['css', 'js']
-                    },
-                    output: {
-                        'file': 'gulp/version.json',
-                    }
-                })
-            )
+            versionNumber({
+                'value': '%DT%',
+                'append': {
+                    'key': 'v',
+                    'cover': 0,
+                    'to': ['css', 'js']
+                },
+                output: {
+                    'file': 'gulp/version.json',
+                }
+            })
         )
         .pipe(app.gulp.dest(app.path.build.html))
         .pipe(app.plugins.browserSync.stream());

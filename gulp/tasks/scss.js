@@ -5,6 +5,7 @@ import cleanCss from 'gulp-clean-css';
 import webpCss from 'gulp-webpcss';
 import autoPrefixer from 'gulp-autoprefixer';
 import groupCssMediaQueries from 'gulp-group-css-media-queries';
+import debug from 'gulp-debug';
 
 const sass = gulpSass(dartSass);
 
@@ -15,7 +16,9 @@ export const scss = () => {
                 title: 'SCSS',
                 message: '<%= error.message %>',
             })))
-        .pipe(app.plugins.replace(/@img\//g, '../img/'))
+        // .pipe(app.plugins.replace(/\@img\//g, '../img/'))
+        .pipe(app.plugins.replace(new RegExp('\@img\/', 'g'), '../img/'))
+        .pipe(debug())
         .pipe(sass({
             outputStyle: app.isBuild ? 'compressed' : 'expanded',
         }))
@@ -44,6 +47,19 @@ export const scss = () => {
         .pipe(rename({
             extname: '.min.css',
         }))
+        .pipe(app.gulp.dest(app.path.build.css))
+        .pipe(app.plugins.browserSync.stream());
+}
+
+export const fixCssRename = () => {
+    return app.gulp.src(app.path.build.cssFix)
+        .pipe(app.plugins.plumber(
+            app.plugins.notify.onError({
+                title: 'SCSS',
+                message: '<%= error.message %>',
+            })))
+        .pipe(app.plugins.replace(new RegExp('\@img\/', 'g'), '../img/'))
+        .pipe(debug())
         .pipe(app.gulp.dest(app.path.build.css))
         .pipe(app.plugins.browserSync.stream());
 }
